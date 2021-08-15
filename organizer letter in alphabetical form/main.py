@@ -1,11 +1,11 @@
-## This soft organizer letters in alphabetical form
+## This soft organizer names in alphabetical form
 
-letters = [' ',' ',' ',' ',' ',' ']
+names = [' ',' ',' ',' ',' ',' ']
 
 for i in range(6):
-    letters[i] = input('inform letter {} \n'.format(i))
+    names[i] = input('inform name {} \n'.format(i+1))
 
-letters.sort()
-print(letters)
+names.sort()
+print(names)
 
 
