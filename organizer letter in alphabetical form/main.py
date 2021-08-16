@@ -8,12 +8,12 @@ for i in range(6):
 names.sort()
 ##choice form
 print('What form you wait see your list ? \n 1- Array \n 2- List \n')
-choice = int(input('inform your option \n'))
+chooce = int(input('inform your option \n'))
 
-if choice == 1:
+if chooce == 1:
     print('The list names organizer is: \n')
     print(names)
-elif choice == 2:
+elif chooce == 2:
     print('The list names organizer is: \n')
     for i in range(6):
         print('{}-{}'.format(i+1 ,names[i]))
